@@ -1,0 +1,190 @@
+body {
+    background-color: #e2ceb5;
+    margin-top: 50px;
+}
+
+
+/*Display In-line Block*/
+
+.dib {
+    display: inline-block;
+}
+
+
+/*Game UI*/
+
+.game-wrapper {
+    height: 388px;
+    width: 400px;
+    background-color: black;
+    border-radius: 100%;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    padding-top: 20px;
+}
+
+.simon {
+    font-family: Bungee;
+    font-size: 30px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+#reg {
+    font-size: 25px;
+}
+
+.controls {
+    height: 180px;
+    width: 180px;
+    border-radius: 100%;
+    background-color: #d4d4d4;
+    border: 10px solid black;
+    position: relative;
+    margin-top: -285px;
+    margin-left: 102px;
+}
+
+.counter {
+    background-color: #333333;
+    font-family: Tahoma;
+    border-radius: 5px;
+    color: #f45c42;
+    height: 35px;
+    width: 35px;
+    display: inline-block;
+    margin: 10px;
+    line-height: 1.7em;
+    font-size: 20px;
+}
+
+.start-button {
+    background-color: #af453a;
+    color: white;
+    border-radius: 10px;
+    height: 25px;
+    width: 50px;
+    display: inline-block;
+}
+
+.strict-button {
+    background-color: #c6c561;
+    color: white;
+    border-radius: 10px;
+    height: 25px;
+    width: 50px;
+}
+
+.strict-light {
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: black;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.power-button {
+    font-family: Bungee;
+    background-color: #98aeb7;
+    height: 20px;
+    width: 60px;
+    border-radius: 4px;
+}
+
+.power-light {
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: black;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+
+/*Colored Buttons*/
+
+.green {
+    height: 180px;
+    width: 180px;
+    background: #278438;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.red {
+    height: 180px;
+    width: 180px;
+    background: #842727;
+    border-top-right-radius: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.yellow {
+    height: 180px;
+    width: 180px;
+    background: #847e27;
+    border-bottom-left-radius: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.blue {
+    height: 180px;
+    width: 180px;
+    background: #275d84;
+    border-bottom-right-radius: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+/*Buttons UI Classes*/
+
+.green.brighten {
+    background-color: white;
+    box-shadow: inset 30px 30px 100px #42f445;
+}
+
+.red.brighten {
+    background-color: white;
+    box-shadow: inset -30px 30px 100px #f44242;
+}
+
+.yellow.brighten {
+    background-color: white;
+    box-shadow: inset 30px -30px 100px #f4f142;
+}
+
+.blue.brighten {
+    background-color: white;
+    box-shadow: inset -30px -30px 100px #42a4f4;
+}
+
+
+/* Buttons Active Inactive */
+
+.game-button {
+    pointer-events: none;
+}
+
+.game-button.active {
+    pointer-events: auto;
+}
+
+
+/*MISC*/
+
+.credits {
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+    font-family: Bungee;
+}
+
+.credits a {
+    color: #4286f4;
+}
